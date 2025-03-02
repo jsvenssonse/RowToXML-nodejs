@@ -59,11 +59,11 @@ A|10 Burning Street|Hometown
     <person>
         <firstname>Elof</firstname>
         <lastname>Sundin</lastname>
-        <address>
-            <street>S:t Johannesgatan 16</street>
+        <adress>
             <city>Uppsala</city>
+            <street>S:t Johannesgatan 16</street>
             <zip>75330</zip>
-        </address>
+        </adress>
         <phone>
             <mobile>073-101801</mobile>
             <landline>018-101801</landline>
@@ -71,10 +71,77 @@ A|10 Burning Street|Hometown
         <family>
             <name>Hans</name>
             <born>1967</born>
-            <address>...</address>
+            <adress>
+                <city>Uppsala</city>
+                <street>Frodegatan 13B</street>
+                <zip>75325</zip>
+            </adress>
+            </family>
+            <family>
+                <name>Anna</name>
+                <born>1969</born>
+                <phone>
+                <mobile>073-101802</mobile>
+                <landline>08-101802</landline>
+            </phone>
         </family>
-        <family>...</family>
     </person>
-    <person>...</person>
+    <person>
+        <firstname>Boris</firstname>
+        <lastname>Johnson</lastname>
+        <adress>
+            <city>London</city>
+            <street>10 Downing Street</street>
+        <zip/>
+        </adress>
+    </person>
+    <person>
+        <firstname>Sandy</firstname>
+        <lastname>Karlsson</lastname>
+        <adress>
+            <city>Katt</city>
+            <street>Kattgatan 1</street>
+            <zip>56565</zip>
+        </adress>
+        <phone>
+            <mobile>072-201801</mobile>
+            <landline>0454-321801</landline>
+        </phone>
+        <family>
+            <name>Kisse Mamma</name>
+            <born>2009</born>
+            <adress>
+                <city>Katt</city>
+                <street>Kattgatan 1</street>
+                <zip>56565</zip>
+            </adress>
+            <phone>
+                <mobile>073-101802</mobile>
+                <landline>08-101802</landline>
+            </phone>
+        </family>
+        <family>
+            <name>Kisse Pappa</name>
+            <born>2008</born>
+            <adress>
+                <city>Katt</city>
+                <street>Kattgatan 1</street>
+                <zip>56565</zip>
+            </adress>
+            <phone>
+                <mobile>073-101802</mobile>
+                <landline>08-101802</landline>
+            </phone>
+        </family>
+    </person>
+    <person>
+        <firstname>Abbe</firstname>
+        <lastname>Johnson</lastname>
+        <adress>
+            <city>Hometown</city>
+            <street>10 Burning Street</street>
+            <zip/>
+        </adress>
+    </person>
 </people>
 ```
