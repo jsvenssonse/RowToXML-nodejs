@@ -2,15 +2,17 @@
 Convert Row data to XML
 
 
-- Row data:
-
+### Row data explaination:
+```
 P|first name|last name
 T|mobile number|landline number
 A|street|city|postal code
 F|name|year of birth
 P can be followed by T, A, and F
 F can be followed by T and A 
+```
 
+### The exampel data
 ```
 P|Elof|Sundin
 T|073-101801|018-101801
@@ -34,50 +36,29 @@ P|Abbe|Johnson
 A|10 Burning Street|Hometown
 ```
 
--Result 
+### Result 
 ```
 <people>
-
     <person>
-
         <firstname>Elof</firstname>
-
         <lastname>Sundin</lastname>
-
         <address>
-
             <street>S:t Johannesgatan 16</street>
-
             <city>Uppsala</city>
-
             <zip>75330</zip>
-
         </address>
-
         <phone>
-
             <mobile>073-101801</mobile>
-
             <landline>018-101801</landline>
-
         </phone>
-
         <family>
-
             <name>Hans</name>
-
             <born>1967</born>
-
             <address>...</address>
-
         </family>
-
         <family>...</family>
-
     </person>
-
     <person>...</person>
-
 </people>
 ```
 
