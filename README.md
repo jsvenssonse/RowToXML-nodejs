@@ -1,6 +1,23 @@
 # RowToXML-nodejs
 Convert Row data to XML
 
+## Getting Started 
+
+### Prerequirement
+- Node installed
+
+### Installation
+1. Clone repository ```https://github.com/jsvenssonse/RowToXML-nodejs.git```
+2. Install xmldom ```npm install xmldom```
+3. Run ```node .\RowToXML.js```
+
+## Geting Data 
+ 
+ ### XML 
+ - localhost:3000/
+
+ ### Rows
+- localhost:3000/data
 
 ### Row data explaination:
 ```
@@ -61,21 +78,3 @@ A|10 Burning Street|Hometown
     <person>...</person>
 </people>
 ```
-
-## Getting Started 
-
-### Prerequirement
-- Node installed
-
-### Installation
-1. Clone repository
-2. Install xmldom ```npm install xmldom```
-3. Run ```node .\RowToXML.js```
-
-## Geting Data 
- 
- ### XML 
- - localhost:3000/
-
- ### Rows
-- localhost:3000/data
